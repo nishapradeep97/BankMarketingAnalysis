@@ -117,6 +117,7 @@ The notebook contains the following visualizations:
 - 📋 Subplots
 - 🐝 Swarm Plot
 - 📊 Count Plot
+- 
 **📷 Project Visualizations**
 
 **📊 Dataset Overview**
