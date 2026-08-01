@@ -1,171 +1,122 @@
-**📊 Bank Marketing Data Analysis**
+# 📊 Bank Marketing Data Analysis
 
-**📌 Project Overview**
+## 📌 Project Overview
 
-The Bank Marketing Data Analysis project performs an end-to-end Exploratory Data Analysis (EDA) on the Bank Marketing Dataset using Python in Jupyter Notebook. The dataset contains information collected during direct marketing campaigns conducted by a Portuguese banking institution. The objective is to analyze customer demographics, campaign performance, financial characteristics, and economic indicators to understand the factors influencing whether a customer subscribes to a term deposit.
+The **Bank Marketing Data Analysis** project performs an end-to-end **Exploratory Data Analysis (EDA)** on the **Bank Marketing Dataset** using **Python** in **Jupyter Notebook**. The dataset contains information collected during direct marketing campaigns conducted by a Portuguese banking institution. The objective is to analyze customer demographics, campaign performance, financial characteristics, and economic indicators to understand the factors influencing whether a customer subscribes to a **term deposit**.
 
-This project demonstrates the complete data analytics workflow, including data preprocessing, feature engineering, exploratory data analysis (EDA), statistical analysis, and data visualization to derive meaningful business insights.
+This project demonstrates a complete data analytics workflow, including **data preprocessing, feature engineering, exploratory data analysis (EDA), statistical analysis, and data visualization** to derive meaningful business insights.
 
-**🎯 Objectives**
+---
 
-Analyze customer demographics and financial characteristics.
+## 🎯 Objectives
 
-Evaluate the effectiveness of marketing campaigns.
+- Analyze customer demographics and financial characteristics.
+- Evaluate the effectiveness of marketing campaigns.
+- Identify factors influencing term deposit subscriptions.
+- Perform univariate, bivariate, and multivariate analysis.
+- Analyze relationships between variables using statistical methods.
+- Generate business insights through visualization.
 
-Identify factors influencing term deposit subscriptions.
+---
 
-Perform univariate, bivariate, and multivariate analysis.
+## 🛠️ Tools & Technologies
 
-Analyze relationships between variables using statistical methods.
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Jupyter Notebook
 
-Generate business insights through visualization.
+---
 
-**🛠️ Tools & Technologies**
+## 📂 Dataset
 
-Python
+**Source:** UCI Machine Learning Repository
 
-Pandas
+**Dataset File:**
 
-NumPy
-
-Matplotlib
-
-Seaborn
-
-Jupyter Notebook
-
-**📂 Dataset**
-
-Source: UCI Machine Learning Repository
-
-Dataset File:
-
-Bank Marketing Data.csv
+`Bank Marketing Data.csv`
 
 The dataset contains customer demographic information, financial details, campaign interactions, previous campaign outcomes, economic indicators, and the subscription status (target variable).
 
-**Key Features**
+### Key Features
 
-Age
+- Age
+- Job
+- Marital Status
+- Education
+- Credit in Default
+- Housing Loan
+- Personal Loan
+- Contact Method
+- Month
+- Day of Week
+- Campaign Duration
+- Campaign Contacts
+- Previous Campaign Outcome
+- Employment Variation Rate
+- Consumer Price Index
+- Consumer Confidence Index
+- Euribor 3-Month Rate
+- Number of Employees
+- Subscription Status
 
-Job
+---
 
-Marital Status
-
-Education
-
-Credit in Default
-
-Housing Loan
-
-Personal Loan
-
-Contact Method
-
-Month
-
-Day of Week
-
-Campaign Duration
-
-Campaign Contacts
-
-Previous Campaign Outcome
-
-Employment Variation Rate
-
-Consumer Price Index
-
-Consumer Confidence Index
-
-Euribor 3-Month Rate
-
-Number of Employees
-
-Subscription Status
-
-**🧹 Data Preprocessing**
+## 🧹 Data Preprocessing
 
 The following preprocessing steps were performed:
 
-Loaded the dataset into a Pandas DataFrame.
+- Loaded the dataset into a Pandas DataFrame.
+- Checked dataset dimensions and structure.
+- Renamed columns for better readability.
+- Verified data types.
+- Checked missing values.
+- Removed duplicate records.
+- Standardized categorical values.
+- Replaced **unknown** values with **missing**.
+- Created new features:
+  - Age Group
+  - Campaign Type
+- Verified unique values.
 
-Checked dataset dimensions and structure.
+---
 
-Renamed columns for better readability.
-
-Verified data types.
-
-Checked missing values.
-
-Removed duplicate records.
-
-Standardized categorical values.
-
-Replaced unknown values with missing.
-
-Created new features:
-
-Age Group
-
-Campaign Type
-
-Verified unique values.
-
-**📊 Exploratory Data Analysis**
+## 📊 Exploratory Data Analysis
 
 The project includes:
 
-Dataset Overview
+- Dataset Overview
+- Statistical Summary
+- Missing Value Analysis
+- Duplicate Analysis
+- Unique Value Analysis
+- Feature Engineering
+- Univariate Analysis
+- Bivariate Analysis
+- Multivariate Analysis
+- Correlation Analysis
+- Pivot Tables
+- Grouping & Aggregation
 
-Statistical Summary
+---
 
-Missing Value Analysis
-
-Duplicate Analysis
-
-Unique Value Analysis
-
-Feature Engineering
-
-Univariate Analysis
-
-Bivariate Analysis
-
-Multivariate Analysis
-
-Correlation Analysis
-
-Pivot Tables
-
-Grouping & Aggregation
-
-**📈 Visualizations**
+## 📈 Visualizations
 
 The notebook contains the following visualizations:
 
-📊 Bar Plot
-
-🥧 Pie Chart
-
-📉 Histogram
-
-📦 Box Plot
-
-🔵 Scatter Plot
-
-🔥 Correlation Heatmap
-
-📈 Line Chart
-
-🎻 Violin Plot
-
-📊Sub plots
-
-🐝Swarm Plot
-
-📊Count Plot
-
+- 📊 Bar Plot
+- 🥧 Pie Chart
+- 📉 Histogram
+- 📦 Box Plot
+- 🔵 Scatter Plot
+- 🔥 Correlation Heatmap
+- 📈 Line Chart
+- 🎻 Violin Plot
+- 📋 Subplots
+- 🐝 Swarm Plot
+- 📊 Count Plot
 **📷 Project Visualizations**
 
 **📊 Dataset Overview**
